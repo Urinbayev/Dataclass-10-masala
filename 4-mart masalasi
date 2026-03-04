@@ -1,0 +1,123 @@
+#1-masala
+from dataclasses import dataclass
+
+@dataclass
+class Talaba:
+    ism: str
+    yosh: int
+    kurs: int
+
+Eshmat = Talaba(ism = 'Eshmat', yosh = 19, kurs = 2)
+print(Eshmat)
+
+#2-masala
+from dataclasses import dataclass
+
+@dataclass
+class Kitob:
+    nomi: str
+    muallif: str
+    sahifa_soni: int
+
+k = Kitob(nomi = 'Qora qashqirlar', muallif = 'Qoziyev Maqsadbek', sahifa_soni = 300)
+print(k)
+
+#3-masala
+from dataclasses import dataclass
+
+@dataclass
+class Telefon:
+    brand: str
+    model: str
+    narx: int
+
+t = Telefon("brand = Iphone, model = Iphone 17 Pro Max, narx = Qimmat")
+print(t)
+
+#4-masala
+from dataclasses import dataclass
+
+@dataclass
+class Avtomobil:
+    marka: str
+    rang: str
+    yil: int
+
+a = Avtomobil("mark = Tayota, rang = Oq, yil = 2000")
+print(a)
+
+#5-masala
+from dataclasses import dataclass
+
+@dataclass
+class Shahar:
+    nomi: str
+    davlat: str
+    aholi: int
+
+sh = Shahar(nomi="Tokio", davlat="Yaponiya", aholi=14000000)
+print(sh)
+
+#6-masala
+from dataclasses import dataclass
+
+@dataclass
+class Kompyuter:
+    protsessor: str
+    ram: str
+    xotira: int
+
+k = Kompyuter(protsessor= "CORE i9", ram= "32gb", xotira= "5Tb")
+print(k)
+
+#7-masala
+from dataclasses import dataclass
+
+@dataclass
+class Film:
+    nomi: str
+    janr: str
+    yil: int
+
+f = Film(nomi= "Tubsizlik", janr= "horror", yil= 2019)
+print(f)
+
+#8-masala
+from dataclasses import dataclass
+
+@dataclass
+class Hisob:
+    ism: str
+    hisob_raqam: int
+    balans: int
+
+h = Hisob(ism= "Maqsadbek", hisob_raqam= "9876543210123456", balans= 1000000000)
+print(h)
+
+#9-masala
+from dataclasses import dataclass
+
+@dataclass
+class Oqituvchi:
+    ism: str
+    fan: str
+    tajriba_yili: int
+
+o = Oqituvchi(ism= "Maqsadbek", fan= "Jismoniy Tarbiya", tajriba_yili= 9)
+print(o)
+
+#10-masala
+from dataclasses import dataclass
+
+@dataclass
+class Mahsulot:
+    nomi: str
+    narx: int
+    miqdor: int
+
+m = Mahsulot(nomi= "Snickers", narx= "8000", miqdor= 5)
+print(m)
+
+
+
+
